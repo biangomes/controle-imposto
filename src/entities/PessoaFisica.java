@@ -5,9 +5,12 @@ public class PessoaFisica extends Contribuintes {
 	private Double gastosSaude;
 	
 	// TODO: corrigir o cálculo, está pegando o total - arrecado, sendo que o certo é só o arrecadado.
-	private static final double taxaMenor = 1 - 15/100;
-	private static final double taxaMaior = 1 - 25/100;
-	private static final double taxaSaude = 1 - 50/100;
+	//private static final double taxaMenor = 1 - 15/100;
+	private static final double taxaMenor = 15/100;
+	//private static final double taxaMaior = 1 - 25/100;
+	private static final double taxaMaior = 25/100;
+	//private static final double taxaSaude = 1 - 50/100;
+	private static final double taxaSaude = 50/100;
 	
 	public PessoaFisica() {
 		super();
